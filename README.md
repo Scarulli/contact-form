@@ -6,9 +6,10 @@ Une fois le projet récupéré :
 DATABASE_URL="mysql://db_user:db_password@127.0.0.1:3306/db_name"
 ``` 
 3. Lancer la commande `bin/console doctrine:database:create`
+4. Lancer la commande `bin/console doctrine:schema:update --force` ou `bin/console d:s:u -f`
 
 ## Création d'un utilisateur
-Lancer la commande `bin/console doctrine:fictures:load` ou `bin/console d:f:l`.
+Lancer la commande `bin/console doctrine:fixtures:load` ou `bin/console d:f:l`.
 
 Cela va créer un utilisateur qui vous permettra de vous connecter en tant qu'admin avec un accès au backoffice.
 
